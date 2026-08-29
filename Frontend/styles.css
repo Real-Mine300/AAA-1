@@ -447,6 +447,27 @@ h1, h2, h3, p {
   font-size: 0.95rem;
 }
 
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.footer-inner p {
+  margin: 0;
+}
+
+.social-link {
+  color: var(--brand);
+  font-weight: 700;
+}
+
+.social-link:hover {
+  text-decoration: underline;
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(14px);
