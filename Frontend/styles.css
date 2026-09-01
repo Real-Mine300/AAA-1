@@ -437,7 +437,7 @@ h1, h2, h3, p {
 .page-blank p {
   color: var(--muted);
   line-height: 1.75;
-  margin: 0 auto;
+  margin: 0 auto 20px;
   max-width: 52ch;
 }
 
