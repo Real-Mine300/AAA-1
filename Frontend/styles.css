@@ -459,6 +459,13 @@ h1, h2, h3, p {
   margin: 0;
 }
 
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
 .social-link {
   color: var(--brand);
   font-weight: 700;
